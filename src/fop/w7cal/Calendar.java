@@ -3,7 +3,7 @@ package fop.w7cal;
 public class Calendar {
     private EventList events;
 
-    public Calendar() {
+    public Calendar(EventList events) {
         this.events = null;
     }
 
