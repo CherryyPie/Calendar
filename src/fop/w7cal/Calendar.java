@@ -4,7 +4,7 @@ public class Calendar {
     private EventList events;
 
     public Calendar() {
-        events = null;
+        this.events = null;
     }
 
     public void addNewEvent(Event event) {
