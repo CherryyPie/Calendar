@@ -1,13 +1,10 @@
 package fop.w7cal;
 
 public class Calendar {
-    private EventList events;
+    EventList events;
 
     public Calendar() {
         events = null;
-    }
-    public Calendar(EventList events) {
-        this.events = events;
     }
 
     public void addNewEvent(Event event) {
