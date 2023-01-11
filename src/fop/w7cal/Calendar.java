@@ -6,6 +6,9 @@ public class Calendar {
     public Calendar() {
         events = null;
     }
+    public Calendar(EventList events) {
+        this.events = events;
+    }
 
     public void addNewEvent(Event event) {
         if (events == null) {
